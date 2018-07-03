@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock, Paper, Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+<div class="container">
+        <div class="card">
+                <div class="card-header">
+                        <p class="h1" style="text-align: center;">Rock, Paper, Scissors!</p>
+                </div>
+        </div>
+    <br>
+    <img src="assets/question-mark.png"  class="rounded float-right" data-toggle="tooltip" data-placement="right" height="3%" width="3%" title="Rock beats Scissors, Scissors beats Paper, Paper beats Rock">
+    <p class="h2" style="text-align:center;">Do you still remember how to play this game? It´s fairly simple! </p> 
+    </div>
+    <br>
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <img src="assets/rock-icon-grey.png" id="rock" alt="Rock">
+        </div>
+        <div class="col">
+            <img src="assets/paper-icon-grey.png" id="paper"alt="Paper">
+        </div>
+        <div class="col">
+            <img src="assets/scissors-icon-grey.png" id="scissors" alt="Scissors">
+        </div>
+    </div>
+<br>
+    <div class="row">
+        <div class="col">
+         <p class="h3" style="text-align: center;" >You chose:</p>
+        </div>
+        <div class="col">
+            <p class="h4" style="text-align: left;" id="user"></p>
+           </div>
+        <div class="col">
+         <p class="h3" style="text-align: center;">The computer chose:</p>
+        </div>
+        <div class="col">
+            <p class="h4" style="text-align: left;" id="cpu"></p>
+           </div>
+    </div>
+<br>
+    <div class="row">
+        <div class="col">
+                <p class="h3" style="text-align: center;" >Result: </p>
+        </div>
+        <div class="col" >
+            <p class="h1" id="result"></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
